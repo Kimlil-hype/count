@@ -155,5 +155,8 @@ class Game {
   }
 }
 
+module.export = Game;
+module.export = GameData;
+
 // start the game
 const game = new Game()
